@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#plane{
+    height: 100vh;
+    width: 100vw;
+    background-color: #eee;
+    position: relative;
+}
+.line{
+    position: absolute;
+    background-color: rgba(51, 51, 51, 0.4);
+}
+#h-line{
+    width: 100%;
+    height: 1px;
+    left:0;
+}
+
+#v-line{
+    width: 1px;
+    height: 100%;
+    top:0;
+}
